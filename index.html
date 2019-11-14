@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive Blogger Website</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
@@ -12,7 +13,10 @@
       href="https://fonts.googleapis.com/css?family=Abel|Anton|Josefin+Sans|Lexend+Deca|Livvic&display=swap"
       rel="stylesheet"
     />
-    <title>Responsive Blogger Website</title>
+
+    <!----- owl carousel ----->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
 
     <!-- Custom style -->
     <link rel="stylesheet" href="css/style.css" />
@@ -73,6 +77,59 @@
       </section>
 
       <!---------------- Side Title -------------------->
+
+      <!-------------------Blog carousel  ------------------------>
+
+      <section>
+        <div class="blog">
+          <div class="container">
+            <div class="owl-carousel owl-theme blog-post">
+              <div class="blog-content">
+                <img src="/assets/Blog-post/post-1.jpg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>Londen Fashin Week the evolution</h3>
+                  <button class="btn btn-blog">Fashion</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <img src="/assets/Blog-post/post-3.jpg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>Londen Fashin Week the evolution</h3>
+                  <button class="btn btn-blog">Fashion</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <img src="/assets/Blog-post/post-2.jpg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>Londen Fashin Week the evolution</h3>
+                  <button class="btn btn-blog">Fashion</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+              <div class="blog-content">
+                <img src="/assets/Blog-post/post-3.jpg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>Londen Fashin Week the evolution</h3>
+                  <button class="btn btn-blog">Fashion</button>
+                  <span>2 minutes</span>
+                </div>
+              </div>
+            </div>
+            <div class="owl-navigation">
+              <span class="owl-nav-prev">
+                <i class="fas fa-long-arrow-alt-left"></i>
+              </span>
+              <span class="owl-nav-next">
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------Blog carousel  ------------------------>
     </main>
 
     <!-- ----------------------------Main Site Section-------------------- -->
@@ -83,6 +140,10 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+
+    <!----- owl carousel js ----->
+    <script src="js/owl.carousel.min.js"></script>
+
     <!-- custom js file -->
     <script src="/js/main.js"></script>
   </body>
